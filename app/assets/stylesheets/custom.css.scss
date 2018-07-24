@@ -41,6 +41,19 @@ $navbar-default-bg: black;
   background-color: black;
 }
 
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+  text-align: center;
+}
+.article-actions .btn {
+  padding: 3px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5 px;

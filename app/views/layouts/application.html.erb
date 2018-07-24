@@ -7,13 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<% flash.each do |name, msg| %>
-  <ul>
-    <li><%= msg %></li>
-  </ul>
-<% end %>
+  <%= render 'layouts/navigation' %>
 
-<%= render 'layouts/navigation' %>
+<%= render 'articles/messages' %>
+
+
 
 <div class ="container">
 <%= yield %>
